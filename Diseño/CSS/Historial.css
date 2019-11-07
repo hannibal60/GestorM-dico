@@ -1,0 +1,356 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #1C8392;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+
+}
+.Titulo-box h1
+{
+	margin: 1;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 200px;
+	color: #fff;
+	border-radius: 1px;
+}
+.Perfil-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 350px;
+	height: 550px;
+	background: #fff;
+	color: #22e3ff;
+	top: 60%;
+	left: 15%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.Acciones-box h2
+{
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+	font-style: 60px;
+}
+.Acciones-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 350px;
+	height: 350px;
+	background: #fff;
+	color: #22e3ff;
+	top: 140%;
+	left: 15%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.Acciones-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #22e3ff;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.Perfil-box label
+{
+	margin: 5;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+.Perfil-box input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.Perfil-box input[type="text"],
+.Perfil-box input[type="text"],
+.Perfil-box input[type="text"],
+.Perfil-box input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #22e3ff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+.DatosPaciente-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 400px;
+	height: 900px;
+	background: #fff;
+	color: #22E3FF;
+	top: 88%;
+	left: 47%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.DatosPaciente-box h3,
+.DatosPaciente-box h4
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 60px;
+}
+.DatosPaciente-box label
+{
+	margin: 5;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+.DatosPaciente-box input
+{
+	width: 70%;
+	margin-bottom: 20px;
+}
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"],
+.DatosPaciente-box input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #22e3ff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+.DatosPaciente-box select
+{
+	width: 10%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #22E3FF;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+.DatosPacienteOtros-box h5
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 60px;
+}
+.DatosPacienteOtros-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 400px;
+	height: 440px;
+	background: #fff;
+	color: #22E3FF;
+	top: 51%;
+	left: 81%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.DatosPacienteOtros-box label
+{
+	margin: 5;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+.DatosPacienteOtros-box input[type="text"],
+.DatosPacienteOtros-box input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #22E3FF;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+.DatosPacienteOtros-box select
+{
+	border-bottom: 1px solid #22E3FF;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #000;
+	font-size: 16px;
+}
+.DatosPacienteOtros-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #22e3ff;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;		
+}
+.DatosMedico-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 400px;
+	height: 550px;
+	background: #fff;
+	color: #22E3FF;
+	top: 135%;
+	left: 81%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;	
+}
+.DatosMedico-box label
+{
+	margin: 5;
+	padding: 0;
+	font-weight: bold;
+	display: block;	
+}
+.DatosMedico-box h6
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 60px;
+}
+.DatosMedico-box input[type="text"],
+.DatosMedico-box input[type="text"],
+.DatosMedico-box input[type="text"],
+.DatosMedico-box input[type="text"],
+.DatosMedico-box input[type="text"],
+.DatosMedico-box input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #22E3FF;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+.DatosMedico-box select
+{
+	border-bottom: 1px solid #22E3FF;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #000;
+	font-size: 16px;
+}
+.AntecedentesPersonales-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 500px;
+	height: 317px;
+	background: #fff;
+	color: #22E3FF;
+	top: 210%;
+	left: 37%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.AntecedentesPersonales-box h6
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 30px;
+}
+.AntecedentesHeredo-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 500px;
+	height: 317px;
+	background: #fff;
+	color: #22E3FF;
+	top: 210%;
+	left: 78%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.AntecedentesHeredo-box h6
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 30px;
+}
+.AntecedentesPatologicos-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 500px;
+	height: 317px;
+	background: #fff;
+	color: #22E3FF;
+	top: 270%;
+	left: 37%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.AntecedentesPatologicos-box h6
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 30px;
+}
+.AntecedentesQuirurjicos-box
+{
+	border: 1px;
+	border-radius: 5px;
+	width: 500px;
+	height: 317px;
+	background: #fff;
+	color: #22E3FF;
+	top: 270%;
+	left: 78%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.AntecedentesQuirurjicos-box h6
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-style: 30px;
+}

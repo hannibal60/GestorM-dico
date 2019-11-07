@@ -1,0 +1,158 @@
+*
+{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../IMG/fondo.jpg) no-repeat center top;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: sans-serif;
+}
+form
+{
+	width: 400px;
+	margin: auto;
+	background: #FFF;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: #17acc2 solid 3px;
+}
+h1 
+{
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+h2 
+{
+	color: #22E3FF;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input
+{
+	width: 90%;
+	margin: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+	border-bottom: 1px solid #22e3ff;
+}
+label
+{
+	width: 100%;
+	margin: 10px;
+	color: #22E3FF;
+	font-size: 17px;
+	border: none;
+}
+textarea
+{
+	min-height: 150px;
+	min-width: 350px;
+	max-height: 150px;
+	max-width: 350px;
+}
+select
+{
+	border-bottom: 1px solid #22E3FF;
+	background: transparent;
+	outline: none;
+	width: 90px;
+	margin: 10px;
+	margin-bottom: 20px;
+	height: 30px;
+	color: #000;
+	font-size: 17px;
+}
+#boton,
+#boton1,
+#boton2,
+#boton3,
+#boton4
+{
+	background: #22E3FF;
+	color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+}
+#boton:hover,
+#boton1:hover,
+#boton2:hover,
+#boton3:hover,
+#boton4:hover
+{
+	cursor: pointer;
+	background-color: #1a8292;
+}
+div#general
+{
+	margin: auto;
+	margin-top: 40px;
+	width: 950px;
+	height: 830px;
+}
+div#perfil
+{
+	float: left;
+}
+div#datosper
+{
+	float: right;
+}
+nav.datos ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	float: right;
+}
+nav.datos #datosp,
+nav.datos #dDatos,
+nav.datos #oDatos,
+nav.datos #aDatos,
+nav.datos #mDatos
+{
+	display: inline-block;
+	background: #22E3FF;
+	font-size: 17px;
+	padding: 1px 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	border: 1px solid #fff;
+}
+nav.datos #datosper-content,
+nav.datos #datosDireccion-content,
+nav.datos #otrosDatos-content,
+nav.datos #datosAntecedentes-content,
+nav.datos #datosMedico-content
+{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	z-index: 999;
+	background:#22E3ff;
+	padding: 15px;
+	width: 500px;
+	border-radius: 10px 10px 10px 10px;
+	display: none;
+}
+@media (max-width: 480px)  {
+	div#general{
+		width: 100%;
+	}
+}
