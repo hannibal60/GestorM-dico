@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	background-color:#F2F3F4;
+	padding-top: 25px;
+    
+
+}
+
+.encab{
+	margin-top:20px;
+	font-family: 'Roboto', sans-serif;
+}
+.socialheader{
+	margin-top: 20px;
+	margin-left: 340px;
+}
+.socialheader a{
+	color: #fff;
+}
+.socialheader a .fa-inverse{
+	color: #2a1000;
+}
+.menu-bar{
+	background-color: #3C95A2;;
+	background-color: #3C95A2;;
+	margin-top: 20px;
+}
+.menu-bar a {
+	color: #FDFEFE;
+	font-size: 14px;
+	font-weight: 500;
+	
+}
+.menu-bar a:hover{
+	text-decoration: none;
+    color: #130A40;
+}
+.menu-list{
+	padding: 12px 0;
+	margin-top: 0px;
+	
+}
+.menu-list li:not(:last-child) {
+	margin-right: 40px;
+}
+#slide-home{
+	margin-bottom: 50px
+}
+
+.carousel-caption{
+
+	background-color: rgba(163,160,156,0.75);
+	height:50%;
+	width: 400%;
+	left: 400px;
+	top: 380px;
+	padding: 30px 45px;
+	color: #2a1000;
+	width: 340px;
+}
+.carousel-inner{
+	margin-top:0px;
+}
+   
+
+.carousel-caption p{
+	
+	font-size: 14px;
+	line-height: 18px;
+}
+.carousel-caption h2{
+	color: #0F76A5
+	font-size: 26px;
+	line-height: 30px;
+}
+.carousel-caption .h4{
+	color: #2a1000;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 8px;
+}
+.carousel-caption a{
+	 border-radius: 0;
+	font-weight: bold;
+	border: none;
+}
+
+.logo, .icon-menu{
+	margin: 5px;
+}
+
+.icon-menu{
+	
+	width: 35px;
+	height: 40px;
+	font-size: 30px;
+	background:  #212F3C;
+	color: #20B2AA;
+	text-align: center;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.banner{
+	margin-top: 80px;
+	position: relative;
+	margin-left:0px;
+	z-index: -1000;
+	
+}
+.banner-titulo{
+
+	font-size: 20px;
+}
+
+.banner .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 85%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #20B2AA;
+}
+
+.banner.txt{
+display: none;
+}
+
+
