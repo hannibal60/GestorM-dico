@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Historial Medico</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="efectoparalax.js"></script>
+	<script src="StopDP.js"></script>
+</head>
+<body>
+    <nav class="nav">Historial Medico</nav>
+    <div class="ContCent">
+        <article>
+           <div>
+            <form method="POST">
+              <label for="jLTituloDatosP"><h2>Datos del paciente</h2></label>
+              <hr>
+              <br>
+              <label for="jLNombreCompletoP">Nombre completo:</label>
+              <input type="text" required placeholder="Nombre completo" maxlength="">
+              <br>
+              <label for="jLFolioAsignado">Folio asignado:</label>
+              <input type="text" required placeholder="Folio asignado" maxlength="">
+              <br>
+              <label for="jLCurp2">CURP:</label>
+              <input type="text" required placeholder="CURP" maxlength="">
+              <br>
+              <label for="jLFechaNac">Fecha de nacimiento:</label>
+              <input type="date" min="2019-11-11" max="" required placeholder="Fecha de nacimiento" maxlength="">
+              <br>
+              <label for="jLTelefono">Telefono:</label>
+              <input type="tel" required placeholder="Telefono" maxlength="10">
+              <br>
+              <label for="jLTituloDireccion">Direccion del paciente</label>
+              <br>
+              <label for="jLMunicipio">Municipio:</label>
+              <input type="text" required placeholder="Municipio" maxlength="">
+              <br>
+              <label for="jLColonia">Colonia:</label>
+              <input type="text" required placeholder="Colonia" maxlength="">
+              <br>
+              <label for="jLCalle">Calle:</label>
+              <input type="text" required placeholder="Calle" maxlength="">
+              <br>
+              <label for="jLNumero">Numero:</label>
+              <input type="text" required placeholder="Numero" maxlength="">
+              <br>
+              <label for="jLTituloOtros">Otros datos del paciente</label>
+              <br>
+              <label for="jLReligion">Religion:</label>
+              <input type="text" required placeholder="Religion" maxlength="">
+              <br>
+              <label for="jLTrabajo">Trabajo:</label>
+              <input type="text" required placeholder="Trabajo" maxlength="">
+              <br>
+              <label for="jLSexo">Sexo:</label>
+              <select name="jCBSexo">
+                  <option value="M">Masculino</option>
+                  <option value="F">Femenino</option>
+              </select>
+              <br>
+              <label for="jLTipoSangre">Tipo de sangre:</label>
+              <select name="jCBTipoSangre">
+                  <option value="O-">O-</option>
+                  <option value="O+">O+</option>
+                  <option value="A-">A-</option>
+                  <option value="A+">A+</option>
+                  <option value="B-">B-</option>
+                  <option value="B+">B+</option>
+                  <option value="AB-">AB-</option>
+                  <option value="AB+">AB+</option>
+              </select>
+              <br>
+              <label for="jLTituloDatosM">Datos del medico:</label>
+              <br>
+              <label for="jLNombreCompletoM">Nombre del medico:</label>
+              <input type="text" required placeholder="Nombre del medico" maxlength="">
+              <br>
+              <label for="jLCedula">Cedula profesional:</label>
+              <input type="text" required placeholder="Cedula profesional" maxlength="">
+              <br>
+              <label for="jLDireccion">Direccion:</label>
+              <input type="text" required placeholder="Direccion" maxlength="">
+              <br>
+              <label for="jLFechaNacM">Fecha de nacimiento:</label>
+              <input type="date" min="2019-11-11" max="" required placeholder="Fecha de nacimiento" maxlength="">
+              <br>
+              <label for="jLSexo">Sexo:</label>
+              <select name="jCBSexo">
+                  <option value="M">Masculino</option>
+                  <option value="F">Femenino</option>
+              </select>
+              <br>
+              <label for="jLTelefonoM">Telefono:</label>
+              <input type="tel" required placeholder="Telefono" maxlength="10">
+              <br>
+              <label for="jLTituloDatosClinicos">Datos clinicos:</label>
+              <br>
+              <label for="jLAntPersonales">Antecedentes personales:</label>
+              <br>
+              <textarea name="AntPersonales" rows="10" cols="40" required placeholder="Escribe aquí tus comentarios" maxlength=""></textarea>
+              <br>
+              <label for="jLAntHeredo">Antecedentes heredo-familiares:</label>
+              <br>
+              <textarea name="AntHeredo" rows="10" cols="40" required placeholder="Escribe aquí tus comentarios" maxlength=""></textarea>
+              <br>
+              <label for="jLAntPatologico">Antecedentes patologicos:</label>
+              <br>
+              <textarea name="AntPatologico" rows="10" cols="40" required placeholder="Escribe aquí tus comentarios" maxlength=""></textarea>
+              <br>
+              <label for="jLAntQuirurgico">Antecedentes quirurgicos:</label>
+              <br>
+              <textarea name="AntQuirurgico" rows="10" cols="40" required placeholder="Escribe aquí tus comentarios" maxlength=""></textarea>
+              <br>
+              <input type="submit" value="Guardar">
+              <input type="submit" value="Modificar">
+          </form>
+           </div>
+        </article>
+    </div>
+    <div class="ContR">
+            <article>
+                    <form method="POST">
+                      <label for="jLTituloPerfil"><h2>Perfil</h2></label>
+                      <hr>
+                      <br>
+                      <label for="jLNombrePaciente">Nombre(s):</label>
+                      <input type="text" required placeholder="Nombre(s)" maxlength="">
+                      <br>
+                      <label for="jLAPaterno">Apellido Paterno:</label>
+                      <input type="text" required placeholder="Apellido Paterno" maxlength="">
+                      <br>
+                      <label for="jLAMaterno">Apellido Materno:</label>
+                      <input type="text" required placeholder="Apellido Materno" maxlength="">
+                      <br>
+                      <label for="jLCurp1">CURP:</label>
+                      <input type="text" required placeholder="CURP" maxlength="">
+                      <br>
+                      <input type="submit" value="Agregar">
+                      <input type="submit" value="Consultar">
+                  </Form>
+    </div>
+    <div class="ContRB">
+            <article>
+                    <h2>Datos 2</h2>
+                    <hr>
+                    <p>parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                    </p>
+                    <p>parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                            parrafoparrafoparrafoparra
+                    </p>
+                    
+                 </article>
+    </div>
+</body>
+</html>
