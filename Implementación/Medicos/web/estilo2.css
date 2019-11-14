@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-nov-2019, 16:26:41
+    Author     : acer
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ventana{
+    width: auto;
+   
+    //VERDE: #20B2AA
+    margin: auto;
+    //color: #FDFEFE;
+    color: #141414;
+    margin-top: auto;
+    padding: 20px 120px 150px 10px;
+    border-top: 35px solid #3C95A2;
+    border-right: 35px solid #3C95A2;
+    border-left: 35px solid #3C95A2;;
+    //background-color: #20B2AA;;
+    background-color: #F2F3F4;;
+}
+
+
+#titulo{
+    font-size: 35px;
+    font-family: fantasy;
+    font-weight: 600;
+    padding-left: 450px;
+}
+
+#Nom{
+    font-family: fantasy;
+    padding-left: auto;
+}
+
+#APaterno{
+    font-family: fantasy;
+    padding-left: auto;
+}
+
+#AMaterno{
+    font-family: fantasy;
+    padding-left: auto;
+}
+
+#FechaN{
+    font-family: fantasy;
+    padding-left: auto;
+}
+
+#sexo{
+    font-family: fantasy;
+    padding-left: auto;
+   
+}
+
+#curp{
+    font-family: fantasy;
+    padding-left: auto;
+}
+
+#rfc{
+    font-family: fantasy;
+    padding-left: auto;
+}
+
+#cedula{
+    font-family: fantasy;
+    padding-left: auto;
+}
+
+#agregar{
+    padding-left: 580px;  
+}
+
+#buscar{
+    padding-left: 10px; 
+}
+
+#modificar{
+    padding-left: 10px; 
+}
+
+#eliminar{
+    padding-left: 10px; 
+}
+
+.Nombre{
+    width: 162px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.APaterno{
+    width: 122px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.AMaterno{
+    width: 120px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+.FechaN{
+    width: 89px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.sexo{
+    width: 23px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.curp{
+    width: 210px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.rfc{
+    width: 120px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.cedula{
+    width: 97px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.buscar{
+    width: 97px;
+    height: 20px;
+    font-family: verdana; 
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.Agregar{
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 180px;
+    background-color: #3C95A2;;
+}
+
+.buscarbtn{
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 150px;
+    background-color: #3C95A2;;
+}
+
+
