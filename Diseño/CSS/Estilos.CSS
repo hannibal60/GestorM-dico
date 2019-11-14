@@ -1,64 +1,84 @@
-body{
+*
+{
+	box-sizing: border-box;
+}
+body
+{
 	margin: 0;
 	padding: 0;
 	background: url(../IMG/fondo.jpg) no-repeat center top;
-	background-size: cover;
-	font-family: sans-serif;
-	height: 100vh;
-
-}
-.login-box
-{
-	border: 1px;
-	border-radius: 5px;
-	width: 350px;
-	height: 450px;
-	background: #fff;
-	color: #22e3ff;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%, -50%);
-	box-sizing: border-box;
-	padding: 70px 30px;
-}
-.login-box h1
-{
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
 	margin: 0;
-	padding: 0 0 20px;
+	font-family: sans-serif;
+}
+form
+{
+	width: 400px;
+	margin: auto;
+	background: #FFF;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: #17acc2 solid 3px;
+}
+h1
+{
+	color: #FFF;
 	text-align: center;
-	font-style: 22px;
-}
-.login-box label
-{
-	margin: 5;
-	padding: 0;
-	font-weight: bold;
-	display: block;
-}
-.login-box input
-{
-	width: 100%;
+	margin: 0;
+	font-size: 30px;
 	margin-bottom: 20px;
 }
-.login-box input[type="text"],
-.login-box input[type="Contraseña"]
+h2
 {
+	color: #22E3FF;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input
+{
+	width: 90%;
+	margin: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 17px;
 	border: none;
 	border-bottom: 1px solid #22e3ff;
-	background: transparent;
-	outline: none;
-	height: 40px;
-	color: #000;
-	font-size: 16px;
 }
-.login-box input[type="submit"]
+label
 {
+	width: 100%;
+	margin: 10px;
+	color: #22E3FF;
+	font-size: 17px;
 	border: none;
-	outline: none;
-	height: 40px;
-	background: #22e3ff;
-	color: #fff;
-	font-size: 18px;
-	border-radius: 20px;
+}
+#boton1
+{
+	background: #22E3FF;
+	color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+}
+#boton1:hover
+{
+	cursor: pointer;
+	background-color: #1a8292;
+}
+div#general
+{
+	margin: auto;
+	margin-top: 40px;
+	width: 400px;
+	height: 335px;
+}
+@media (max-width: 480px)  {
+	div#general{
+		width: 100%;
+	}
 }
