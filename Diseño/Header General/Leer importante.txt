@@ -1,0 +1,1 @@
+Este es header general...... solo se necesita copiar el head y el header y ocupar el archivo css ----estilos---
