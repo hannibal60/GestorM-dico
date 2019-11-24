@@ -13,11 +13,11 @@
 			
 			<!--Nombre de usuario-->
 			<label for "Correo Electronico">Correo Electronico</label>
-			<input type="text" placeholder="Inserte su correo" name="userInput">
+			<input type="email" placeholder="Inserte su correo" name="userInput" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
 
 			<!--Contraseña-->
 			<label for "Contraseña">Contraseña</label>
-			<input type="Contraseña" placeholder="Inserte su contraseña" name="passInput">
+			<input type="password" placeholder="Inserte su contraseña" name="passInput" name="pw" pattern="[a-z0-9._%+-]{1,}$" title="sólo se permiten estos carácteres especiales: ._%+-">
 
 			<input type="submit" id="btnAceptar"value="Iniciar Sesión">
 			
