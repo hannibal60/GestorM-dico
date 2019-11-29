@@ -1,4 +1,4 @@
-DROP DATABASE gestorclinico;
+
 CREATE DATABASE gestorclinico;
 USE gestorclinico;
 
